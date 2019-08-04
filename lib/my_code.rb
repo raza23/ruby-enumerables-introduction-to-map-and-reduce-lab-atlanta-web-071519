@@ -35,7 +35,7 @@ end
 def(source_array)
   source_array.reduce do |x,y|
     binding.pry
-    
+
 
 
 

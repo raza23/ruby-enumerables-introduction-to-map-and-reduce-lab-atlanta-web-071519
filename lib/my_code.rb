@@ -35,9 +35,9 @@ def reduce_to_any_true(source_array)
   source_array.reduce do |x|
     if x = true
        x
-    else x = nil
+    elsif x = nil
        false
-    elsif x = false
+    else x = false
       false
 
 

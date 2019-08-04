@@ -35,6 +35,6 @@ def reduce_to_any_true(source_array)
   source_array.reduce do |x|
   if x = 'true'
     return true
-  elsif 
+  elsif
 end
 end

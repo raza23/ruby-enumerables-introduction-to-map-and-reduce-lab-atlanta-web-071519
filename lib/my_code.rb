@@ -37,7 +37,7 @@ def reduce_to_any_true(source_array)
        x
     else x = nil
        false
-    else x = false
+    elsif x = false
       false
 
 

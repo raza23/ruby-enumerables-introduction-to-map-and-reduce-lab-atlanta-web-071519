@@ -34,7 +34,7 @@ end
 def reduce_to_any_true(source_array)
   source_array.reduce do |x|
     if x = 'true'
-      puts 'true'
+       x
     else
       return 'false'
 

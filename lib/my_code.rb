@@ -36,9 +36,9 @@ def reduce_to_any_true(source_array)
     if x = true
        x
     elsif x = nil
-       false
+       x
     else x = false
-      false
+      x
 
 
     end

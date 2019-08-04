@@ -34,7 +34,11 @@ end
 
 def reduce_to_any_true(source_array)
   source_array.reduce do |x,y|
-    binding.pry
+    if x || y = 'true'
+      return true
+    else
+      return false
+      
   end
 
 

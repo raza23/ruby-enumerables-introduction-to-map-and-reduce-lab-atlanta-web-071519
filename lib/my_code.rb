@@ -33,10 +33,10 @@ end
 
 def reduce_to_any_true(source_array)
   source_array.reduce do |x|
-    if x = 'true'
+    if x = true
        x
     else
-      return 'false'
+      return false
 
     end
   end

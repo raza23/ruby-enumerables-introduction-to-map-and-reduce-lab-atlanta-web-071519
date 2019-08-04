@@ -39,7 +39,7 @@ def reduce_to_any_true(source_array)
        false
     else x = false
       false
-    
+
 
     end
   end

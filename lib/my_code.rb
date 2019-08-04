@@ -34,4 +34,3 @@ end
 def reduce_to_any_true(source_array)
   source_array.reduce{|x,y| x + y}
 end
-

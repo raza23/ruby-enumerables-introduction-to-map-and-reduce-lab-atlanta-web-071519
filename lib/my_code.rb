@@ -33,7 +33,7 @@ def reduce_to_all_true(source_array)
 end
 
 def(source_array)
-  source_array.map do |x,y|
+  source_array.reduce do |x,y|
     if x || y = 'true'
       return true
     else

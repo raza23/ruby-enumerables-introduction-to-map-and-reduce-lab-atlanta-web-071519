@@ -34,8 +34,6 @@ end
 def reduce_to_any_true(source_array)
   source_array.reduce do |x|
     binding.pry
-  if x = 'true'
-    return true
-  elsif
+  
 end
 end

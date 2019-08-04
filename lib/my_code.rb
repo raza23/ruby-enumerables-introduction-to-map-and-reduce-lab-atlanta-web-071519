@@ -35,12 +35,3 @@ end
 def(source_array)
   source_array.reduce(true,:&)
 end
-
-
-
-
-
-
-
-
-end

@@ -29,9 +29,4 @@ end
 
 def reduce_to_all_true(source_array)
   source_array.reduce(true,:&)
-
-end
-
-def(source_array)
-  source_array.reduce(true,:&)
 end

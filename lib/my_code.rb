@@ -33,7 +33,8 @@ def reduce_to_all_true(source_array)
 end
 
 def(source_array)
-  source_array.reduce
+  source_array.reduce(true,:&)
+end
 
 
 

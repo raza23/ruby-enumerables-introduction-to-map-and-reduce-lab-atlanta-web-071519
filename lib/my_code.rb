@@ -34,11 +34,8 @@ end
 
 def(source_array)
   source_array.reduce do |x,y|
-    if x || y = 'true'
-      return true
-    else
-      return false
-    end
+    binding.pry
+    
 
 
 
